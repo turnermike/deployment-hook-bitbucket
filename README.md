@@ -1,0 +1,1 @@
+See the comments at the top of bitbucket-hook.php for instructions.
