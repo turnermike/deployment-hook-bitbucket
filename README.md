@@ -1,6 +1,8 @@
 See the comments at the top of bitbucket-hook.php for instructions.
 
-# Staging Setup
+# Bitbucket Webhooks Script
+
+## Staging Setup
 
 1. Clone the repo a level up from the public/www directory, but rename it for 'STAGING'
     $ git clone --mirror git@username/repo-name.git repo-name-STAGING.git
@@ -17,4 +19,3 @@ See the comments at the top of bitbucket-hook.php for instructions.
 
 # Credits
 * Source tutorial: http://jonathannicol.com/blog/2013/11/19/automated-git-deployments-from-bitbucket/
-* - mad props to that dude!
