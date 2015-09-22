@@ -24,6 +24,9 @@ See the comments at the top of bitbucket-hook.php for instructions.
         $ touch index.html (for security)
         $ echo '<p>nothing to see here</p>' > index.html
 
+5. Copy the contents of deployment-hook.php from the repository, to the deployment-hook.php file created in step 4.
+
+6. Change the $repo_dir and $web_root_dir variables accordingly within deployment-hook.php.
 
 
 
@@ -33,5 +36,6 @@ See the comments at the top of bitbucket-hook.php for instructions.
 
 
 
-# Credits
+
+## Credits
 * Source tutorial: http://jonathannicol.com/blog/2013/11/19/automated-git-deployments-from-bitbucket/
