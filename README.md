@@ -8,6 +8,7 @@ See the comments at the top of bitbucket-hook.php for instructions.
 
         $ git clone --mirror git@username/repo-name.git repo-name-STAGING.git
 
+
 2. Set a GIT_WORK_TREE for the public staging directory
 
         $ cd repo-name-STAGING.git
