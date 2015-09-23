@@ -38,7 +38,8 @@ See the comments at the top of bitbucket-hook.php for instructions.
 
             http://domain.ca/.deployment09222015/deployment-hook.php
 
-
+    7. Leave the Triggers radio button set to "Repository push".
+    8. Click the Save button.
 
 
 
