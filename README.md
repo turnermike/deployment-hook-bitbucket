@@ -29,6 +29,7 @@ See the comments at the top of bitbucket-hook.php for instructions.
 6. Change the $repo_dir and $web_root_dir variables accordingly within deployment-hook.php.
 
 8. Set the 'Webhook' at Bitbucket:
+
     1. Browse to the repo at Bitbucket
     2. Click the Settings (gear) icon
     3. Click Webhooks
@@ -48,10 +49,11 @@ Simply push your updates to the "staging" branch. The updates should be pushed t
 If you're experiencing problems, or the deployment isn't working, start by looking at the Bitbucket status page here: http://status.bitbucket.org
 
 You may also monitor your deployment hook activity by following these steps:
-        1. Browse to the repo at Bitbucket
-        2. Click the Settings (gear) icon
-        3. Click Webhooks
-        4. Click View Requests
+
+    1. Browse to the repo at Bitbucket
+    2. Click the Settings (gear) icon
+    3. Click Webhooks
+    4. Click View Requests
 
 
 ## Credits
