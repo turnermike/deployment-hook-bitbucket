@@ -50,10 +50,10 @@ If you're experiencing problems, or the deployment isn't working, start by looki
 
 You may also monitor your deployment hook activity by following these steps:
 
-    1. Browse to the repo at Bitbucket
-    2. Click the Settings (gear) icon
-    3. Click Webhooks
-    4. Click View Requests
+1. Browse to the repo at Bitbucket
+2. Click the Settings (gear) icon
+3. Click Webhooks
+4. Click View Requests
 
 
 ## Credits
