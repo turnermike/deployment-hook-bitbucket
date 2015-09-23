@@ -58,3 +58,4 @@ You may also monitor your deployment hook activity by following these steps:
 
 ## Credits
 * Source tutorial: http://jonathannicol.com/blog/2013/11/19/automated-git-deployments-from-bitbucket/
+* Bitbucket Webhooks documentation: https://confluence.atlassian.com/bitbucket/manage-webhooks-735643732.html
