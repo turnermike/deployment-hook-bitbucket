@@ -31,7 +31,7 @@ See the comments at the top of bitbucket-hook.php for instructions.
 
     To edit the file via bash terminal use:
 
-        $ nano deployment-script.php
+        $ nano deployment-hook.php
 
 7. Change the $repo_dir and $web_root_dir variables accordingly within deployment-hook.php.
 

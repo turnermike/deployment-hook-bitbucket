@@ -4,8 +4,8 @@
 // command to set work tree after clone to non-public directory
 // GIT_WORK_TREE=/home/<username>/www git checkout -f production
 
-$repo_dir = '/var/www/vhosts/ristaging.ca/buckleys-outbreak.git';
-$web_root_dir = '/var/www/vhosts/ristaging.ca/buckleys-outbreak.ristaging.ca';
+$repo_dir = '/var/www/vhosts/ristaging.ca/deployment-test-STAGING.git';
+$web_root_dir = '/var/www/vhosts/ristaging.ca/deployment-test.ristaging.ca';
 
 // Full path to git binary is required if git is not in your PHP user's path. Otherwise just use 'git'.
 $git_bin_path = 'git';
