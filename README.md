@@ -15,18 +15,23 @@ See the comments at the top of bitbucket-hook.php for instructions.
         $ cd repo-name-STAGING.git
         $ GIT_WORK_TREE=/path/to/public/dir/ git checkout -f staging
 
-4. Create a directory within the public/www directory named ".deployment09222015". The numerals on the end are just today's date, used for security purposes.
+4. Create a directory within the public/www directory named ".deployment09222015". The numerals on the end are just today's date, used for security purposes. You can use whatever you like, just try to hide the directory from trouble makers.
 
         $ mkdir .deployment09222015
 
 5. Create the following within the public/www/.deployment09222015 directory for the staging location:
 
+        $ cd .deployment09222015
         $ touch deploy.log
         $ touch deployment-hook.php
         $ touch index.html (for security)
         $ echo '<p>nothing to see here</p>' > index.html
 
 6. Copy the contents of deployment-hook.php from the repository, to the deployment-hook.php file created in step 4.
+
+    To edit the file via bash terminal use:
+
+        $ nano deployment-script.php
 
 7. Change the $repo_dir and $web_root_dir variables accordingly within deployment-hook.php.
 
