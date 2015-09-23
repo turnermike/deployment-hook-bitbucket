@@ -36,7 +36,9 @@ See the comments at the top of bitbucket-hook.php for instructions.
     5. Type 'Staging' in the Title field
     6. Type the URI to the staging deployment script. For example:
 
-        http://domain.ca/.deployment09222015/deployment-hook.php
+            http://domain.ca/.deployment09222015/deployment-hook.php
+
+
 
 
 
