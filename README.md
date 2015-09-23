@@ -34,7 +34,7 @@ See the comments at the top of bitbucket-hook.php for instructions.
     3. click Webhooks
     4. click Add Webhook
     5. type 'Staging' in the Title field
-    6. type the URI to the staging deployment script (/var/www/vhosts/domain.ca/deploy/deployment-hook-staging.php)
+    6. type the URI to the staging deployment script (http://domain.ca/.deployment09222015/deployment-hook.php)
 
 
 
