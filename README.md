@@ -29,13 +29,13 @@ See the comments at the top of bitbucket-hook.php for instructions.
 6. Change the $repo_dir and $web_root_dir variables accordingly within deployment-hook.php.
 
 8. Set the 'Webhook' at BitBucket:
-    1. browse to the repo
-    2. click the Settings (gear) icon
-    3. click Webhooks
-    4. click Add Webhook
-    5. type 'Staging' in the Title field
-    6. type the URI to the staging deployment script
-    http://domain.ca/.deployment09222015/deployment-hook.php
+    1. Browse to the repo
+    2. Click the Settings (gear) icon
+    3. Click Webhooks
+    4. Click Add Webhook
+    5. Type 'Staging' in the Title field
+    6. Type the URI to the staging deployment script. For example:
+        http://domain.ca/.deployment09222015/deployment-hook.php
 
 
 
