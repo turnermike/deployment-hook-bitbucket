@@ -1,47 +1,5 @@
 <?php
-/**
- *
- * Source tutorial: http://jonathannicol.com/blog/2013/11/19/automated-git-deployments-from-bitbucket/
- * - mad props to that dude!
- *
- *
- * 1. Clone the repo a level up from the public/www directory, but rename it for 'STAGING'
- * $ git clone --mirror git@username/repo-name.git repo-name-STAGING.git
- *
- * 2. Set a GIT_WORK_TREE for the public staging directory
- * $ cd repo-name-STAGING.git
- * $ GIT_WORK_TREE=/path/to/public/dir/ git checkout -f staging
- *
- * 3. Clone the (same) repo a level up from the public/www directory, but rename it for 'PRODUCTION'
- * $ git clone --mirror git@username/repo-name.git repo-name-PRODUCTION.git
- *
- * 4. Set a GIT_WORK_TREE for the public production directory
- * $ cd repo-name-PRODUCTION.git
- * $ git clone --mirror git@username/repo-name.git repo-name-PRODUCTION
- *
- * 5. SSH to server and create the following within the public/www directory for the staging location:
- * $ mkdir deploy && cd deploy
- * $ touch deploy.log
- * $ touch deployment-hook-staging.php
- * $ touch index.html (for security)
- *
- * 6. Copy this script to deployment-hook-staging.php
- *
- * 7. Change the $repo_dir and $web_root_dir variables accordingly
- *
- * 8. Set the 'Webhook' at BitBucket:
- * - browse to the repo
- * - click the Settings (gear) icon
- * - click Webhooks
- * - click Add Webhook
- * - type 'Staging' in the Title field
- * - type the URI to the staging deployment script (/var/www/vhosts/domain.ca/deploy/deployment-hook-staging.php)
- *
- * 9. Repeat steps 5-8 for 'production'
- *
- * This document is not complete.
- *
- */
+
 
 // command to set work tree after clone to non-public directory
 // GIT_WORK_TREE=/home/<username>/www git checkout -f production
